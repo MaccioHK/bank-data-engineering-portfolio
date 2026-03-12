@@ -1,0 +1,23 @@
+{
+    "tables": {
+        "t": "trades",
+        "b": "books"
+    },
+    "lineage": [
+        {
+            "source_table": "trades",
+            "source_column": "trade_id",
+            "output_column": "trade_id"
+        },
+        {
+            "source_table": "trades",
+            "source_column": "amount",
+            "output_column": "amount"
+        },
+        {
+            "source_table": "books",
+            "source_column": "book_name",
+            "output_column": "book_name"
+        }
+    ]
+}
